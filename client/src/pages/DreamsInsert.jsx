@@ -121,13 +121,13 @@ class DreamsInsert extends Component {
 
                 <Label>Pic: </Label>
                 <InputText
-                    type="text"
+                    type="img"
                     // step="0.1"
                     // lang="en-US"
                     // min="0"
                     // max="10"
                     // pattern="[0-9]+([,\.][0-9]+)?"
-                    value={pic}//<img src={this.props.pic} alt="dream pic"/>
+                    value={pic}
                     onChange={this.handleChangeInputPic}
                 />
 

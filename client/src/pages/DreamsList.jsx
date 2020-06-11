@@ -97,7 +97,7 @@ class DreamsList extends Component {
                 Cell: function(props) {
                   return (
                     <span>
-                      <img src={`${props.pic}`} alt="dream pic" height="100px" width="100px" />
+                      <img src={`${props.pic}`}alt="dream pic" height="100px" width="100px" />
                     </span> // giving undefined as img src!!!
                   )
                 }
